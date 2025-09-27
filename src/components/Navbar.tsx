@@ -22,9 +22,9 @@ const Navbar = () => {
     <nav className="p-4 flex items-center justify-between sticky top-0 bg-background z-10">
       {/* LEFT */}
       <SidebarTrigger />
-      {/* <Button variant="outline" onClick={toggleSidebar}>
+      <Button variant="outline" onClick={toggleSidebar}>
         Custom Button
-      </Button> */}
+      </Button>
       {/* RIGHT */}
       <div className="flex items-center gap-4">
         <Link href="/">Dashboard</Link>
