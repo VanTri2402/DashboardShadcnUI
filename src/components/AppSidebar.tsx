@@ -59,7 +59,7 @@ export function AppSidebar() {
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
               <Link href="/" className="flex items-center gap-2">
-                <Image src="/logo.svg" width={20} height={20} alt="Logo" />
+                <Image src="/logo.svg" width={20} height={20} alt="logo" />
                 <span>NHVT Dev</span>
               </Link>
             </SidebarMenuButton>
