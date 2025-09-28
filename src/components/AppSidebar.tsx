@@ -9,6 +9,7 @@ import {
   Settings,
   User2,
   ChevronDown,
+  ProjectorIcon,
 } from "lucide-react";
 import {
   Sidebar,
@@ -101,16 +102,16 @@ export function AppSidebar() {
             <SidebarMenu>
               <SidebarMenuItem>
                 <SidebarMenuButton>
-                  <Link href={"/#"}></Link>
-                  <Projector />
-                  See All Projects
+                  <Link href={"/#"} />
+                  <Plus />
+                  Add Project
                 </SidebarMenuButton>
               </SidebarMenuItem>
               <SidebarMenuItem>
                 <SidebarMenuButton>
-                  <Link href={"/#"}></Link>
-                  <Plus />
-                  Add Project
+                  <Link href={"/#"} />
+                  <ProjectorIcon />
+                  See All Project
                 </SidebarMenuButton>
               </SidebarMenuItem>
             </SidebarMenu>
@@ -196,7 +197,7 @@ export function AppSidebar() {
                   <User2 /> Van Tri <ChevronUp className="ml-auto" />
                 </SidebarMenuButton>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end">
+              <DropdownMenuContent>
                 <DropdownMenuItem>Account</DropdownMenuItem>
                 <DropdownMenuItem>Setting</DropdownMenuItem>
                 <DropdownMenuItem>Sign Out</DropdownMenuItem>
